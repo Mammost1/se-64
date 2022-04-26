@@ -1,0 +1,17 @@
+{/*
+        <nav class="navbar" style={{position:"absolute", width:"150px",height:"100vh"}}>
+          <div class="container-fluid" style={{position:"absolute",top:"0px"}}>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="/">Login</a></li>
+              <li class="nav-item"><a class="nav-link" href="/Home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="/TotalCapital">หน้ารวมทุน</a></li>
+              <li class="nav-item"><a class="nav-link" href="/Introduction">ขั้นตอนยื่นทุน</a></li>
+              <li class="nav-item"><a class="nav-link" href="/Profile">ข้อมูลนิสิต</a></li>
+              <li class="nav-item"><a class="nav-link" href="/UserStatus">สถานะ</a></li>
+              <li class="nav-item"><a class="nav-link" href="/PassList">หน้ารายชื่อผู้มีสิทธิสัมภาษณ์</a></li>
+              <li class="nav-item"><a class="nav-link" href="/InterviewSchedule">ตารางคิวเข้าสัมภาษณ์</a></li>
+              <li class="nav-item"><a class="nav-link" href="/Rate">หน้าในคะแนน</a></li>
+              <li class="nav-item"><a class="nav-link" href="/Contact">ช่องทางติดต่อ</a></li>
+            </ul>
+          </div>
+        </nav> */}

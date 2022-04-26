@@ -1,0 +1,76 @@
+.TotalScholarship-div-line-54{
+    width:'100%'
+}
+.TotalScholarship-h1-line-58{
+    font-Family:Prompt;
+    font-weight: 600;
+    color:#680C07;
+    margin-Left:20px;
+    margin-Top:10px;
+}
+.TotalScholarship-btn-addScholarship{
+    height:45px;
+    border-Top-Left-Radius:20px;border-Top-Right-Radius:20px;border-Bottom-Left-Radius:20px;border-Bottom-Right-Radius:20px;
+    background-Color:#4ECB71;border-Color:#4ECB71;
+    margin-Right:40px;
+    margin-Top:10px;
+    font-Family:Prompt;
+    color:white;
+    font-Weight:500;
+    font-Size:18px;
+    width:120px;
+}
+.TotalScholarship-dropdown-1{
+    height:45px;
+    border-Top-Left-Radius:20px;border-Top-Right-Radius:20px;border-Bottom-Left-Radius:20px;border-Bottom-Right-Radius:20px;
+    margin-Left:3em;
+    text-Align:center;
+    padding: 8px;
+    font-Family:Prompt;
+    color:'black';
+    font-weight: 800;
+}
+.TotalScholarship-dropdown-option-1{
+    background-Color:rgb(195,195,195);
+    font-Family:Prompt;
+    font-weight: 800;
+}
+.TotalScholarship-dropdown-option-2{
+    background-Color:#EA4335;
+    font-Family:Prompt;
+    font-weight: 800;
+}
+.TotalScholarship-dropdown-option-3{
+    background-Color:#FBD820;
+    font-Family:Prompt;
+    font-weight: 800;
+}
+.TotalScholarship-dropdown-option-4{
+    background-Color:#4ECB71;
+    font-Family:Prompt;
+    font-weight: 800;
+}
+.TotalScholarship-btn-search{
+    height:45px;
+    margin-Left:1.5em;
+    text-Align:center;
+    font-Family:Prompt;
+    font-weight: 800;
+    width:120px;
+    margin-Right:40px;
+    color:white;
+    background-Color:#444444 ;
+    border-Top-Left-Radius:20px;border-Top-Right-Radius:20px;border-Bottom-Left-Radius:20px;border-Bottom-Right-Radius:20px;
+}
+.TotalScholarship-span-font-header{
+    text-Align:center;
+    text-Decoration-Line:underline;
+    font-Family:Prompt;
+    font-Weight:800;
+    color: #341392;
+}
+.TotalScholarship-span-font{
+    font-Family:Prompt;
+    font-Weight:800;
+    color: #341392;
+}

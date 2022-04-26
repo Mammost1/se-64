@@ -1,0 +1,60 @@
+#CheckAnouncement-list {
+    width: 98%;
+    font-family: Prompt;
+    text-align: content;
+    margin-left: 0.5%;
+    border-radius: 10rem;
+    background-color: #e5e5e5;
+    height: 68px;
+}
+
+#CheckAnouncement-list-0{
+    width: 97%;
+    border-radius: 100px;
+    height: 50px;
+    background-color: #c4c4c4;
+    margin:10px
+    
+}
+#CheckAnouncement-list-0 h1{
+    margin-left: 100px;
+    
+}
+#CheckAnouncement-list-1 {
+    width: 5%;
+    
+}
+
+#CheckAnouncement-list-2 {
+    width: 15%;
+}
+#CheckAnouncement-list-3 {
+    width: 15%;
+   
+}
+#CheckAnouncement-list-4 {
+    width: 25%;
+    
+}
+#CheckAnouncement-list-5 {
+    width: 130px;
+  
+}
+#CheckAnouncement-list-6 {
+    
+    margin-left: 3%;
+}
+#CheckAnouncement-list-7 {
+   
+    margin-left: 3%;
+   
+}
+#CheckAnouncement-button {
+    text-align: center;
+    
+}
+
+#CheckAnouncement-button-1 {
+    margin-right:5%;
+    
+}
