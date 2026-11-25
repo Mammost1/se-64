@@ -1,0 +1,24 @@
+#CheckScore {
+    margin-top: 100px;
+    margin-left: 50px;
+   font-size: 72px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #300000;
+}
+
+#CheckScore1 {
+    margin-left: 50px;
+    /*background-color: #c4c4c4;*/
+    border-radius: 20px;
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+    
+}
+
+#b1 {
+    margin-left: 5%;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,277 @@
+.containerRate {
+    max-width: 1380px;
+    margin-left: 150px;
+    
+}
+.container-head h2{
+    font-family: 'Prompt', sans-serif;
+    font-size: 40px;
+    color: #680C07;
+    text-align: left;
+}
+.content-con {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.content-con a{
+   width: 200px;
+   text-align: center;
+}
+
+.RateDiv-r {
+    width: 400px;
+    /*background-color: aqua;*/
+    float: left;
+    
+}
+.RateDiv-r1{
+    width: 400px;
+    /*background-color: aqua;*/
+    float: left;
+}
+
+
+.content-con:first-child, .content-con:last-child {
+    padding: 5rem 0;
+}
+
+/*.content-r .content-w{
+    padding: 2rem;
+    text-align: left;
+    margin-top: -5%;
+}*/
+
+.container-body {
+    margin-top: 10px;
+
+}
+.container-body h2{
+    font-family: 'Prompt', sans-serif;
+    font-size: 40px;
+    color: #680C07;
+    margin-left: -10;
+    text-align: left;
+    
+    
+}
+.content-w {   
+    margin-left: 10%;
+}
+.content-w a{
+    
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    color: #680C07;
+}
+.content-r h3{
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    color: #680C07;
+    margin-top: 10%;
+}
+.content-r a{
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: .5rem 1rem;
+    font-family: Roboto;
+}
+
+.content-r a1{
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: .5rem 1rem;
+    font-family: Roboto;
+    font-size: 36px;
+    color: #680C07;
+}
+
+
+.content-icon{
+    color: #680C07;
+    
+}
+
+a.content-btn{
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+.content-btn{
+    background:  #680C07;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #fff;
+    border: 5px solid transparent;
+    transition: 0.3s;
+    margin-top: 2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+     
+}
+.content-btn:hover {
+    
+    background: transparent;
+    color: #680C07;
+    border: 5px solid #680C07;
+}
+
+
+.dividing-line-1{
+    background: #680C07;
+    color: #680C07;
+    border: 2px solid #680C07;
+    width: 95%;
+
+    
+}
+.RateDiv{
+    width: 150px;
+    /*background-color: #680C07;*/
+    float: left;
+    font-style: Roboto ;
+    font-size: 36px;
+    color: #680C07;
+}
+.RateDiv1 input{
+    
+    /*background-color:blue;*/
+    float: left;
+    border: 4px solid #680C07;
+    color: #680C07;
+    text-align: center;
+    font-size: 24px;
+    width: 460px;
+    
+}
+.RateDiv1 {
+    float: left;
+    color: #680C07;
+    text-align: center;
+    font-size: 24px;
+    width: 380px;
+    /*background-color:blue;*/
+}
+
+.RateDiv2{
+    width: 160px;
+    /*background-color:aqua;*/
+    float: left;
+    font-style: Roboto ;
+    font-size: 36px;
+    color: #680C07;
+    
+}
+.RateDiv3{
+    width: 100px;
+    /*background-color:aqua;*/
+    float: left;
+    font-style: Roboto ;
+    font-size: 36px;
+    color: #680C07;
+    margin-top: -10px;
+}
+
+.RateDiv4{
+    width: 100%;
+    /*background-color:aqua;*/
+    float: left;   
+}
+
+
+/*.content-w input{
+    border: 4px solid #680C07;
+    color: #680C07;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 24px;
+    float: right;
+    margin-top: 2%;
+    display: block;
+    margin-left: -50%;
+    
+}
+.content-w button{
+    margin-left: 60%;
+}
+.content-w a{
+    font-style: Roboto ;
+    font-size: 36px;
+    color: #680C07;
+}
+
+.content-w a1{
+    font-style: Roboto ;
+    font-size: 36px;
+    color: #680C07;
+}
+
+
+.content-w a1{
+   float: right; 
+   margin-right: 30%;
+   margin-left: 5%;
+   font-weight: bold;
+
+}
+.content-w a2{
+    font-style: Roboto ;
+    font-size: 24px;
+    color: #680C07;
+    
+}
+
+*/
+.container-body-btn,.container-body-btn-1{
+    background:  #680C07;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #fff;
+    border: 5px solid transparent;
+    transition: 0.3s;
+    margin-top: 2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+     
+}
+.container-body-btn:hover,.container-body-btn-1:hover {
+    
+    background: transparent;
+    color: #680C07;
+    border: 5px solid #680C07;
+}
+.container-body-btn-1{
+    float: right;
+}
+.container-body-btn{
+    float: left;
+}
+.container-total{
+    font-size: 36px;
+    color: #680C07;
+    font-style: Roboto ;
+     font-weight: bold;
+     width: 100%;
+     /*background-color:aqua;*/
+     text-align: right;
+     float: left;
+}
+
+@media screen and (max-width:700px){
+    .RateDiv3{
+        width: 300px;
+       
+        
+    }
+
+    .RateDiv3 button{   
+       margin-left: 110px;
+    }
+    .containerRate {
+        
+        margin-left: 20px;
+        
+    }
+}

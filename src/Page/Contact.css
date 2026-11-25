@@ -1,0 +1,95 @@
+.black_contact{
+
+
+   
+    font-family: Prompt;
+    font-style: normal;
+    font-size: 800px;
+    line-height: 30px;
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+    
+}
+.container_object_1{
+    width:90%;
+  
+    
+}
+
+.container_facebook{
+    position: relative;
+    width: 350px;
+    height: 50px;
+    left: 80%;
+    top: 55px;
+    border-radius: 20px;
+    background: rgba(196, 196, 196, 0.29);
+}
+
+.container_facebook_curcle{
+    position: relative;
+    width: 125px;
+    height: 125px;
+    left: 50%;
+    top: -50px;
+    border-radius: 50%;
+    background: rgba(196, 196, 196, 0.29);
+    
+}
+.container_facebook_picture{
+    position: relative;
+    top: 12.5px;
+}
+.container_facebook_picture_1{
+    width: 100px;
+    height: 100px;
+    background-size:cover;
+    border-radius:50%;
+   
+  
+}
+.container_facebook_color{
+   
+    height: 50px;
+    width: 270px;
+
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #680C07;
+}
+
+
+
+.container_location{
+    position: relative;
+    width: 890px;
+    height: 80px;
+    left: 80%;
+    top: 68px;
+    border-radius: 20px;
+    background: rgba(196, 196, 196, 0.29);
+}
+.container_location_color{
+   
+    height: 80px;
+    width: 800px;
+
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #680C07;
+}

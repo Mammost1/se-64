@@ -1,0 +1,21 @@
+#interAdmin-text  h4{
+   color: #680C07;
+   font-style: Roboto;
+   font-size: 40px;
+}
+
+#interAdmin-table-1 tr{
+    color: aliceblue;
+}
+
+#interAdmin-table-bd th{
+    border: 2px solid aliceblue;
+    font-size: 23px;
+    font-style: Roboto;
+}
+
+#interAdmin-table-2 td{
+    border: 2px solid #680C07;
+    font-size: 21px;
+    font-style: Roboto;
+}

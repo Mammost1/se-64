@@ -1,0 +1,68 @@
+.TopbarItems{
+    background-color: #680C07;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    position: fixed; 
+    top:0px;
+    width: 100%;
+    z-index: 20;
+}
+
+.Topbar-texts{
+    font-Family:Prompt;
+    color: #fff;
+    border: 5px;
+    border-color: black;
+    
+    font-size: medium ;
+}
+
+.logo-kusrc{
+    display: flex;
+    width: 70px;
+    margin: 0.7rem;
+}
+
+.c-bar{
+    flex: 1;
+    font-family: Prompt;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.data-container{
+    font-Family:Prompt;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 20px;
+    justify-content: flex-end;
+}
+.btn-quit{
+    font-Family:Prompt;
+    padding: 32px 32px;
+    background-color:  #8D120B;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-noti{
+    font-size: 30px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+@media screen and (max-width:960px){
+    .TopbarItems a{
+        position: relative;
+    }
+    
+}
+

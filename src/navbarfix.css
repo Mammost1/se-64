@@ -1,0 +1,230 @@
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #680C07;
+    --bg-secondary: #420C09;
+    --transition-speed: 1200ms;
+  }
+  
+  body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+  }
+  
+  main {
+    margin-left: 5rem;
+    padding: 1rem;
+  }
+  
+  .mynavbar {
+    /*position: absolute;*/
+    position: fixed;
+    background-color: var(--bg-primary);
+    transition: width 600ms ease;
+    z-index: 20;
+    height: 100%;
+    /*background-color: #b6b6b6;*/
+    /*height: 3000px;*/
+    /*overflow: scroll;*/
+  }
+  
+  .mynavbar-nav {
+    /*background-color: wheat;*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*height: 100%;*/
+  }
+  
+  .mynavbar-item {
+    width: 100%;
+    background-color: #7A1712;
+  }
+  
+  .mynavbar-item:last-child {
+    margin-top: auto;
+  }
+  
+  .mynavbar-link {
+    font-Family:Prompt;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
+  }
+  
+  .mynavbar-link:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+  }
+  
+  .mynavbar-link-text {
+    display: none;
+    white-space:nowrap;
+    margin-left: 1rem;
+    color: white;
+  }
+  
+  .mynavbar-link svg {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+  }
+  
+  .mynavbar-fa-primary {
+    color: #ff7eee;
+  }
+  
+  .mynavbar-fa-secondary {
+    color: #df49a6;
+  }
+  
+  .mynavbar-fa-primary,
+  .mynavbar-fa-secondary {
+    transition: var(--transition-speed);
+  }
+  
+  .mynavbar-logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    font-size: 1.5rem;
+    letter-spacing: 0.3ch;
+    width: 100%;
+  }
+  
+  .mynavbar-logo svg {
+    transform: rotate(0deg);
+    transition: var(--transition-speed);
+  }
+  
+  .mynavbar-logo-text
+  {
+    display: inline;
+    position: absolute;
+    left: -999px;
+    transition: var(--transition-speed);
+  }
+  
+  .mynavbar:hover .mynavbar-logo svg {
+    transform: rotate(-180deg);
+  }
+  
+  /* Small screens */
+  @media only screen and (max-width: 600px) {
+    .mynavbar {
+      position: fixed;
+      bottom: 0;
+      width: 100vw;
+      height: 5rem;
+      
+    }
+  
+    .mynavbar-logo {
+      display: none;
+    }
+  
+    .mynavbar-nav {
+      flex-direction: row;
+    }
+  
+    .mynavbar-link {
+      justify-content: center;
+    }
+  
+    main {
+      margin: 0;
+      
+      
+    }
+  }
+  
+  /* Large screens */
+  @media only screen and (min-width: 600px) {
+    .mynavbar {
+      top: 0;
+      width: 5rem;
+      height: 100vh;
+    }
+  
+    .mynavbar:hover {
+      width: 16rem;
+    }
+  
+    .mynavbar:hover .mynavbar-link-text {
+      display: inline;
+    }
+  
+    .mynavbar:hover .mynavbar-logo svg
+    {
+      margin-left: 11rem;
+    }
+  
+    .mynavbar:hover .mynavbar-logo-text
+    {
+      left: 0px;
+    }
+  }
+  
+  .dark {
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+  }
+  
+  .light {
+    --text-primary: #1f1f1f;
+    --text-secondary: #000000;
+    --bg-primary: #ffffff;
+    --bg-secondary: #e4e4e4;
+  }
+  
+  .solar {
+    --text-primary: #576e75;
+    --text-secondary: #35535c;
+    --bg-primary: #fdf6e3;
+    --bg-secondary: #f5e5b8;
+  }
+  
+  .theme-icon {
+    display: none;
+  }
+  
+  .dark #darkIcon {
+    display: block;
+  }
+  
+  .light #lightIcon {
+    display: block;
+  }
+  
+  .solar #solarIcon {
+    display: block;
+  }

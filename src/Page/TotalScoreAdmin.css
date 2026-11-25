@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+#container-TotalScore h2{
+    font-family: 'Prompt', sans-serif;
+    font-size: 36px;
+    color: #680C07;
+    text-align: left;
+    margin-top: 5%;
+
+}
+#container-TotalScore-box{
+    width: 1280px;
+    height: 60px;
+    background-color: #c4c4c4;
+    margin-left: 5%;
+    border-radius: 15px;
+}
+
+#container-TotalScore-box1{
+    width: 1200px;
+    height: 60px;
+    background-color: #c4c4c4;
+    margin-left: 8%;
+    margin-top: 0.3%;
+    border-radius: 15px;
+    
+}
+#container-TotalScore-box2{
+    width: 1200px;
+    height: 600px;
+    background-color: #c4c4c4;
+    margin-left: 8%;
+    margin-top: 0.3%;
+    border-radius: 15px;
+    margin-bottom: 10%;
+    padding-top: 3%;
+    
+}
+#container-TotalScore-box2 a{
+   font-size: 28px;
+   color:black;
+   font-family: 'Prompt', sans-serif;
+   
+   
+}
+
+#container-TotalScore-box2 input{
+
+    margin-left:3% ;
+    font-size: 24px;
+ }
+#container-TotalScore-box a{
+    font-size: 36px;
+    color: #680C07; 
+    float: left;
+    margin-left: 5%;
+    
+}
+
+#container-TotalScore-box a1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    color:black; 
+    float:right;
+    margin-top: 1%;
+    margin-right: 5%;
+    
+
+}
+
+.container-TotalScore-btn-1,.container-TotalScore-btn{
+    background:  #680C07;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #fff;
+    border: 5px solid transparent;
+    transition: 0.3s;
+    margin-top: 2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-left: 5%;
+     
+}
+.container-TotalScore-btn:hover,.container-TotalScore-btn-1:hover {
+    
+    background: transparent;
+    color: #680C07;
+    border: 5px solid #680C07;
+}
